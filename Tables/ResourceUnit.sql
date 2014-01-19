@@ -1,0 +1,21 @@
+USE [getbuild_mate]
+GO
+
+/****** Object:  Table [dbo].[ResourceUnit]    Script Date: 01/08/2014 23:00:47 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[ResourceUnit](
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+	[Unit] [nvarchar](50) NULL,
+ CONSTRAINT [PK_ResourceUnit] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
