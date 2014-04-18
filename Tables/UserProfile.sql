@@ -42,6 +42,8 @@ CREATE TABLE [dbo].[UserProfile](
 	[paypalPayerID] [varchar](20) NULL,
 	[vat] [float] NULL,
 	[vatnumber] [varchar](20) NULL,
+	[defaultOverhead] [float] NULL,
+	[defaultProfit] [float] NULL,
 	[notifyByEmail] [bit] NOT NULL,
 	[notifyDate] [datetime] NULL,
 	[avatar] [varchar](50) NULL,
