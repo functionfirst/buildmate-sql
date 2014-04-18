@@ -47,6 +47,7 @@ CREATE TABLE [dbo].[UserProfile](
 	[notifyByEmail] [bit] NOT NULL,
 	[notifyDate] [datetime] NULL,
 	[avatar] [varchar](50) NULL,
+	[token] [varchar](10) NULL
  CONSTRAINT [PK_UserProfile] PRIMARY KEY CLUSTERED 
 (
 	[userid] ASC
